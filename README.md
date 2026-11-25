@@ -5,7 +5,7 @@ A versioned JavaScript library for deterministic telemetry and inventory of a fi
 ## Use the library
 
 ```sh
-npm install ./infra-simulation-v2.0.0.tgz
+npm install https://github.com/Paragjindal01/paragjindal-portfolio/releases/download/standalone-lab-v0.1.0/infra-simulation-v2.0.0.tgz
 ```
 
 ```js
@@ -36,3 +36,5 @@ The source archive includes its unit suite. Extract it and run `npm test` with N
 All equipment, addresses, names, and measurements are synthetic. The library performs no network or hardware calls. Thresholds illustrate lab behavior. Keep the package version and snapshot schema separate when evolving this interface.
 
 The package is marked private. A redistribution license has not been declared.
+
+[Release notes and verified source provenance](docs/release-provenance.md)
